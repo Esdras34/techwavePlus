@@ -1,0 +1,102 @@
+
+
+
+header {
+    width: 100%;
+    background-color: #2d4059;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+header .d-flex {
+    align-items: center; /* Alinha itens dentro das divs lateralmente */
+}
+.carousel-container {
+    width: 100%; /* Aumente ou ajuste a porcentagem ou defina um valor fixo como 1200px */
+    max-width: 1100px; /* Define um limite máximo para a largura */
+    margin: 0 auto; /* Centraliza o carrossel horizontalmente */
+    margin-bottom: 20px; /* Espaçamento entre o carrossel e os cards abaixo */
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Faz com que as imagens ocupem toda a largura do carrossel */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+    
+
+}
+
+header p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 3px 1px black;
+    margin: 0; /* Remove margens extras */
+    padding-left: 10px; /* Dá um espaçamento ao texto da loja */
+}
+
+header input.form-control {
+    width: auto; /* Ajusta o tamanho do campo de busca */
+    max-width: 300px; /* Define um tamanho máximo */
+}
+
+header button {
+    margin-left: 10px; /* Espaço entre o botão buscar e o campo de busca */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.lovepik.com/background/20211021/large/lovepik-modern-science-and-technology-wallpaper-background-image_400086233.jpg');
+    background-size: cover;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    min-height: 100vh;  /* Garante que a altura mínima da página seja 100% da altura da tela */
+    overflow-y: auto;  /* Ativa a rolagem vertical quando o conteúdo excede a altura da tela */
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+    
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #2d4059;
+    color:#fff
+    
+}
+
+footer {
+    background-color:  #2d4059;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 1px black;
+}
+
+

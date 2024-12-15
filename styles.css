@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Guerrilla&display=swap');
+header {
+    width: 100%;
+    background-color: #2d4059;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff5722;
+}
+
+/* Estilo do Corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.lovepik.com/background/20211021/large/lovepik-modern-science-and-technology-wallpaper-background-image_400086233.jpg');
+    background-size: cover;
+    margin: 0;
+    padding-top: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100%; 
+    width: 100%;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 50px 40px; 
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px; 
+    text-align: center;
+    margin: 100px 0; 
+    animation: fadeIn 0.5s ease-in-out;
+    font-family: "Playfair Display", serif;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2d4059;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #2d4059;
+    outline: none;
+    box-shadow: 0 0 5px rgba(45, 64, 89, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 15px; 
+    background-color: #2d4059;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff5722;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 87, 34, 0.2);
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    display: none;
+}
+
+.additional-links {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #34495e;
+}
+
+.additional-links a {
+    color: #2d4059;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}
+
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 3px 1px black;
+    text-align: center;
+    margin: 20px 20px 0; 
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+#secao1{
+    border: 5px solid #2d4059;
+    border-radius: 10px;
+    background:#2d4059;
+    box-shadow: 3px 5px 1px black;
+    
+}
+#contato {
+padding: 40px 20px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap; 
+gap: 20px;
+}
+
+.left-text {
+flex: 1;
+max-width: 40%;
+}
+
+.left-text h2 {
+font-size: 30px;
+color: #ffffff;
+margin-top: 20%;
+font-family: "Playfair Display", serif;
+}
+
+.left-text p {
+font-size: 20px;
+color: #feffff;
+font-family: "Playfair Display", serif;
+}
+
+#contato-form {
+flex: 1; 
+max-width: 50%; 
+align-self: flex-start; 
+}
+
+   
